@@ -28,3 +28,4 @@ def adicionar(mensagem):
 
 
 bot.polling()
+bot.set_webhook(' https://nfthunterbot.herokuapp.com/' + CHAVE_API)
