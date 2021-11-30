@@ -3,7 +3,7 @@ from utilidades.utilidades import moeda
 
 CHAVE_API = "2130502582:AAGBpiQc382sfWvsGXU0EjYWX-YKbo62JvI"
 
-bot = telebot.TeleBot(CHAVE_API)
+bot = telebot.TeleBot(CHAVE_API, threaded=False)
 global crypto_list
 crypto_list = ['BNB', 'ROFI', 'USDT']
 
