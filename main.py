@@ -23,7 +23,7 @@ def verificar(mensagem):
 @bot.message_handler(func=verificar)
 def responder(mensagem):
     global msg
-    bot.send_message(mensagem.chat.id, moeda(f'{msg}'), parse_mode = 'HTML')
+    bot.send_message(mensagem.chat.id, moeda(f'{msg}'))
 
 
 @bot.message_handler(commands=['add'])
