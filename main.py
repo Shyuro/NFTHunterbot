@@ -5,7 +5,7 @@ from flask import Flask, request
 
 
 PORT = int(os.environ.get('PORT', 5000))
-CHAVE_API = "2130502582:AAGBpiQc382sfWvsGXU0EjYWX-YKbo62JvI"
+CHAVE_API = "__CHAVE_API__"
 server = Flask(__name__)
 
 bot = telebot.TeleBot(CHAVE_API, threaded=False)
